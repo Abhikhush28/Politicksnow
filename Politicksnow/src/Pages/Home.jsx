@@ -1,6 +1,6 @@
 import HeroSection from "../components/HeroSection";
 import VoteImg from "../components/VoteImg";
-import megaphone from "../assets/images/marketing.png";
+import megaphone from "../../public/assets/images/marketing.png";
 import BannerSection from "../components/BannerSection";
 import BannerSection2 from "../components/BannerSection2";
 import Footer from "../components/Footer";
@@ -15,7 +15,7 @@ const Home = () => {
           "Increase support for your campaign or organization with all-inclusive packages featuring 100% managed email, text messaging, digital ad and design services that help you reach voters."
         }
         btn={"View Solutions"}
-        img={"../src/assets/images/section2.jpg"}
+        img={"/assets/images/section2.jpg"}
       />
       <BannerSection2
         title={"Political Advertising Services for Winning Campaigns"}
@@ -23,7 +23,7 @@ const Home = () => {
           "Quickly increase your visibility with targeted marketing services to help your political campaign succeed. Politicks Now offers scalable services from design to digital ads managed on behalf so that you can focus on winning your campaign."
         }
         btn={"View Services"}
-        img={"../src/assets/images/section3.jpeg"}
+        img={"/assets/images/section3.jpeg"}
       />
       <BannerSection
         title={"Establish your political presence with your own website"}
@@ -31,7 +31,7 @@ const Home = () => {
           "We create high-visibility campaign websites that set you apart from other candidates and beautifully displays your campaign message online. No need to spend hours with do-it-yourself website builders."
         }
         btn={"Get Started"}
-        img={"../src/assets/images/section4.png"}
+        img={"/assets/images/section4.png"}
       />
 
       <div className="bg-[#535da1] text-center flex items-center justify-center lg:text-3xl font-bold text-white  py-14 lg:py-28">
@@ -107,7 +107,7 @@ const Home = () => {
           {/* card 1 */}
           <div className="relative">
             <img
-              src="../src/assets/images/image.png"
+              src="/assets/images/image.png"
               className="absolute bottom-20 duration-200 hover:bottom-40 lg:hover:bottom-36"
               alt=""
             />
@@ -125,7 +125,7 @@ const Home = () => {
           {/* card 2 */}
           <div className="relative">
             <img
-              src="../src/assets/images/image.png"
+              src="/assets/images/image.png"
               className="absolute bottom-20 duration-200  hover:bottom-40 lg:hover:bottom-36"
               alt=""
             />
@@ -149,7 +149,7 @@ const Home = () => {
         <div className="flex lg:flex-row-reverse flex-col md:justify-between lg:gap-20 ">
           <div className="lg:w-1/2">
             <img
-              src="../src/assets/images/map.png"
+              src="/assets/images/map.png"
               className="w-[25rem] rounded-2xl h-[29rem]"
               alt=""
             />
@@ -162,7 +162,7 @@ const Home = () => {
             </div>
             <div className=" flex items-center bg-gray-100 font-bold gap-5 text-yellow-500">
               <img
-                src="./src/assets/images/a.png"
+                src="/assets/images/a.png"
                 className="w-20 h-20"
                 alt=""
               />
@@ -171,7 +171,7 @@ const Home = () => {
 
             <div className=" flex items-center font-bold gap-5 text-yellow-500">
               <img
-                src="./src/assets/images/a.png"
+                src="/assets/images/a.png"
                 className="w-20 h-20"
                 alt=""
               />
@@ -180,7 +180,7 @@ const Home = () => {
 
             <div className=" flex items-center bg-gray-100 font-bold gap-5 text-yellow-500">
               <img
-                src="./src/assets/images/a.png"
+                src="/assets/images/a.png"
                 className="w-20 h-20"
                 alt=""
               />
@@ -189,7 +189,7 @@ const Home = () => {
 
             <div className=" flex items-center font-bold gap-5 text-yellow-500">
               <img
-                src="./src/assets/images/a.png"
+                src="/assets/images/a.png"
                 className="w-20 h-20"
                 alt=""
               />
@@ -198,7 +198,7 @@ const Home = () => {
 
             <div className=" flex items-center bg-gray-100 font-bold gap-5 rounded-b-3xl text-yellow-500">
               <img
-                src="./src/assets/images/a.png"
+                src="/assets/images/a.png"
                 className="w-20 h-20"
                 alt=""
               />

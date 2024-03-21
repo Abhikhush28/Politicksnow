@@ -1,12 +1,12 @@
 import React from "react";
-import bg from "../assets/image.svg";
-import logo from "../assets/images/logo.png";
+import bg from "../../public/assets/image.svg";
+import logo from "../../public/assets/images/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const HeroSection = () => {
   return (
 
-     <div className="bg-[url(./src/assets/background.svg)] ">
+     <div className="bg-[url(/assets/background.svg)] ">
       {/* navBar for laptop */}
       <nav className=" hidden lg:flex container w-[85%] mx-auto px-6 py-7  justify-between items-center">
         <div className="flex space-x-10 items-center justify-center">

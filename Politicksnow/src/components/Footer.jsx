@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo.png";
+import logo from "../../public/assets/images/logo.png";
 import { MdApartment } from "react-icons/md";
 import { MdOutlineWifiCalling3 } from "react-icons/md";
 import { FaAt } from "react-icons/fa6";

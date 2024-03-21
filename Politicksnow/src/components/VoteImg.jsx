@@ -1,6 +1,6 @@
 import React from "react";
-import sectionPlay from "../assets/images/sectionplay.jpeg";
-import megaphone from "../assets/images/megaphone.png";
+import sectionPlay from "../../public/assets/images/sectionplay.jpeg";
+import megaphone from "../../public/assets/images/megaphone.png";
 
 const VoteImg = () => {
   return (

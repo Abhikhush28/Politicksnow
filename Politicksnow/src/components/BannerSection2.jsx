@@ -1,5 +1,4 @@
 import React from 'react'
-import section2 from "../assets/images/section2.jpg";
 const BannerSection2 = ({title, desc, btn, img}) => {
   return (
    <div className="w-[85%] mx-auto my-40">
